@@ -19,7 +19,7 @@ function btnClicked() {
 }
 
 function ticketAmount(speed, max) {
-  let d1Ticket;
+  let Ticket;
   if (speed > max + 40) {
     return 'Really Big Ticket';
   } else if (speed > max + 20) {
@@ -29,5 +29,5 @@ function ticketAmount(speed, max) {
   } else {
     return 'No Ticket';
   }
-  return d1Ticket;
+  return Ticket;
 }
